@@ -22,11 +22,11 @@ export const SKILLS = [
   'C#',
   'C++',
   'Python',
-  'Level Design',
-  'AI/State Machines',
-  'DOTween / Animations',
-  'Web (React, JS)',
-  'SQL',
+  'Photoshop',
+  'Design Patterns',
+  'Aniamtions',
+  'React',
+  'Node',
 ]
 
 
@@ -38,8 +38,8 @@ export const PROJECTS = [
     year: 2025,
     description:
       'A sleek, high-speed, hyper-casual runner in a neon world. Jump between platforms as speed ramps up and chase the rhythm. Mouse click / tap to jump.',
-    tags: ['Unity', '2D', 'Endless', 'Casual', 'Web'],
-    tech: ['Unity', 'HTML5'],
+    tags: ['Unity', '2D', 'Endless', 'Casual', 'Ads'],
+    tech: ['Unity', 'C#', 'Ad-Mob Integration'],
     images: [
       pub('images/nocturn/3.jpg'),
       pub('images/nocturn/2.jpg'),
@@ -62,7 +62,7 @@ export const PROJECTS = [
     description:
       'Defend the castle from waves of goblins at night; by day, build up defenses, earn gems, and buy skins. Climb the leaderboard.',
     tags: ['Unity', 'Tower Defense', 'Strategy', 'Survival', 'Web'],
-    tech: ['Unity', 'HTML5', 'Leaderboards'],
+    tech: ['Unity', 'C#', 'PlaygamaSDK', 'Public/Private Leaderboards', 'Rewarded Ads'],
     images: [
       pub('images/tinydefender/1.png'),
       pub('images/tinydefender/2.png'),
@@ -84,8 +84,8 @@ export const PROJECTS = [
     year: 2025,
     description:
       "A platformer made for GMTK 2025: you're an attention-seeking cat on a skateboard. Do loops, flips, and tricks to impress other cats across maps.",
-    tags: ['Unity', 'Platformer', '2D', 'Physics', 'Singleplayer', 'Skating', 'Web', 'Windows'],
-    tech: ['Unity', 'HTML5', 'Windows'],
+    tags: ['Unity', 'Platformer', '2D', 'Physics', 'Character Selection'],
+    tech: ['Unity', 'C#','ScriptableObjects'],
     images: [
       pub('images/catnskate/1.png'),
       pub('images/catnskate/2.png'),
@@ -107,8 +107,8 @@ export const PROJECTS = [
     year: 2025,
     description:
       'Drag-and-combine crafting roguelite: fuse items in forge slots, equip to fight waves, and face bosses on floors 10/20/30. 30+ recipes, gems, achievements.',
-    tags: ['Unity', 'Strategy', 'Action', 'Crafting', 'Pixel Art', 'Singleplayer', 'Web', 'Windows'],
-    tech: ['Unity', 'HTML5', 'Windows'],
+    tags: ['Unity', 'Strategy', 'Action', 'Crafting', 'AI Generated', 'Shop System', 'Achievement System'],
+    tech: ['Unity', 'C#', 'Scriptable Objects'],
     images: [
       pub('images/fantasycraft/1.png'),
       pub('images/fantasycraft/2.png'),
