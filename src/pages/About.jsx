@@ -8,7 +8,7 @@ export default function About() {
       <p className="mt-4 text-neutral-700 dark:text-neutral-300">
         I'm {PROFILE.name}, an indie game developer passionate about creating fun, 
         polished, and memorable games. My focus lies in game feel and
-         robust systems, where I combine technical problem-solving with creativity to\
+         robust systems, where I combine technical problem-solving with creativity to
           craft engaging gameplay loops and visually expressive mechanics.
       I enjoy rapid prototyping, iterating on ideas quickly, and building systems
        that are scalable and easy to extend. My background covers Unity (C#) for core game development, 
