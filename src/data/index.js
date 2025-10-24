@@ -4,7 +4,7 @@ export const PROFILE = {
   name: 'BAM',
   title: 'Indie Game Developer',
   bio: 'I build tight-feeling 2D/3D gameplay, performant systems, and small but punchy games. Comfortable across Unity C#, web, and data tooling.',
-  location: 'Bangalore, India',
+  location: 'India',
   email: 'mailto:steins654murali@gmail.com',
   avatar: pub('images/00Profile/profilePic.jpg'), // <-- replace with your image
   links: {
@@ -32,6 +32,32 @@ export const SKILLS = [
 
 
 export const PROJECTS = [
+  {
+    id: 'chesscrush',
+    name: 'ChessCrush',
+    year: 2025,
+    description:
+      'BYOG 2025 submission. Chess meets match-3: move like classic chess, line up 3 of the same piece to crush them. 15 handcrafted levels, themes/skins, crisp SFX.',
+    tags: ['Unity', 'HTML5', 'Windows', 'Puzzle', 'Strategy', '2D', 'Singleplayer', 'BYOG 2025', 'Game Jam'],
+    tech: ['Unity', 'WebGL'],
+    images: [
+      pub('images/chesscrush/ss01.png'),
+      pub('images/chesscrush/ss02.png'),
+      pub('images/chesscrush/ss03.png'),
+    ],
+    cover: pub('images/chesscrush/Main.png'),
+    links: {
+      play: 'https://bam-dev.itch.io/chesscrush',
+      // repo: '',       // add later if you open-source
+      // trailer: '',    // add a YouTube id later if you post one
+      // devlog: ''
+    },
+    highlights: [
+      'Chess logic + match-3 loop with readable UX',
+      '15 levels from easy to mind-bending; themed boards',
+      'Built for BYOG (IGDC) 2025 jam window',
+    ],
+  },
     {
     id: 'nocturn',
     name: 'Nocturn',
