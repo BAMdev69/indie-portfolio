@@ -58,6 +58,28 @@ export const PROJECTS = [
       'Built for BYOG (IGDC) 2025 jam window',
     ],
   },
+  {
+  id: 'invasion-2d',
+  name: 'Invasion 2D',
+  year: 2025,
+  description:
+    'Co-developed with Luckylikii for IGDC Indie 40 (2025) submission. A 2D tower-defense built in Unity; shipped Android build.',
+  tags: ['Unity', 'Android', 'Tower Defense', 'Collab', 'IGDC Indie 40'],
+  tech: ['Unity', 'C#', 'Android'],
+  images: [
+      pub('images/invasion/3.png'),
+      pub('images/invasion/2.png'),
+      pub('images/invasion/1.png'),
+  ],
+  cover: pub('images/invasion/Main.png'),
+  links: {
+    play: 'https://luckylikii.itch.io/invation'
+  },
+  highlights: [
+    'Android build published on itch.io',
+    'Co-dev with Luckylikii',
+  ],
+},
     {
     id: 'nocturn',
     name: 'Nocturn',
