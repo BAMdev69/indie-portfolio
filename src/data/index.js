@@ -53,9 +53,10 @@ export const PROJECTS = [
       // devlog: ''
     },
     highlights: [
+      'BYOG (IGDC) 2025 jam 2nd-RunnerUp (3rd) Prize',
       'Chess logic + match-3 loop with readable UX',
       '15 levels from easy to mind-bending; themed boards',
-      'Built for BYOG (IGDC) 2025 jam window',
+      
     ],
   },
   {
